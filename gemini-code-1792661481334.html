@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giải Phương Trình Bậc 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Giải Phương Trình Bậc 1</h2>
+        <p class="subtitle">Dạng tổng quát: <strong>aX + b = 0</strong></p>
+
+        <div class="input-group">
+            <label for="coefA">Nhập hệ số a:</label>
+            <input type="number" id="coefA" placeholder="Ví dụ: 2" step="any">
+        </div>
+
+        <div class="input-group">
+            <label for="coefB">Nhập hệ số b:</label>
+            <input type="number" id="coefB" placeholder="Ví dụ: -4" step="any">
+        </div>
+
+        <div class="btn-group">
+            <button id="btnSolve" onclick="solveEquation()">Giải phương trình</button>
+            <button id="btnReset" onclick="resetForm()">Làm mới</button>
+        </div>
+
+        <div id="resultBox" class="result-box hidden">
+            <span id="resultText"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
