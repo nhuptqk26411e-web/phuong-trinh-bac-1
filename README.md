@@ -1,0 +1,1 @@
+# phuong-trinh-bac-1
